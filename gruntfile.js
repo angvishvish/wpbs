@@ -5,12 +5,7 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: [
-          'app/bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js',
-          'app/bower_components/angular/angular.js',
-          'app/bower_components/angular-route/angular-route.js',
-          'app/app.js',
-          'app/view1/view1.js',
-          'app/view2/view2.js'
+          'node_modules/less/bootstrap.less',
         ],
         dest: 'app/<%= pkg.name %>.add.js'
       }
@@ -27,13 +22,13 @@ module.exports = function(grunt) {
     },
     less: {
       debug: {
-        src: 'app/app.less',
-        dest: 'app/styles.css'
+        src: 'assets/less/styles.less',
+        dest: 'style.css'
       }
     },
     cssmin: {
-      'app/styles.css': [
-        'app/styles.css'
+      'style.css': [
+        'style.css'
       ]
     },
   });
@@ -44,5 +39,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-less');
-  grunt.registerTask('default', ['concat', 'uglify', 'less', 'cssmin']);
+  grunt.registerTask('css', ['less', 'cssmin']);
+  grunt.registerTask('js', ['concat', 'uglify']);
+
 };

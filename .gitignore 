@@ -6,4 +6,3 @@ node_modules/
 tmp
 .DS_STORE
 .idea
-/bower_components
