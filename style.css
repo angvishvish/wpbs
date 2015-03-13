@@ -1107,6 +1107,7 @@ img {
   vertical-align: middle;
 }
 .img-responsive,
+img,
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
@@ -6542,5 +6543,5 @@ button.close {
   }
 }
 body {
-  background-color: #eee;
+  background-image: url('assets/images/background.jpg');
 }
