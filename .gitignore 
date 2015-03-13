@@ -1,0 +1,8 @@
+# Ignore these files
+
+logs/*
+!.gitkeep
+node_modules/
+tmp
+.DS_STORE
+.idea
