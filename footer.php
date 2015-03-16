@@ -1,4 +1,4 @@
-  <footer class="footer">
+  <footer class="footer navbar-inverse">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -7,7 +7,7 @@
           </h4>
         </div>
         <div class="col-md-6">
-          <h4 class="pull-right">
+          <h4 class="year">
             2015
           </h4>
         </div>
@@ -22,6 +22,9 @@
 
     wp_register_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery'), NULL, true);
     wp_enqueue_script('bootstrap');
+
+    // wp_register_script('main', get_template_directory_uri() . '/assets/js/main.js', array('main'), NULL, true);
+    // wp_enqueue_script('main');
 
     wp_footer();
   ?>

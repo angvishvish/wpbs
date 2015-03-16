@@ -17,28 +17,33 @@
 
 
   <nav class="navbar navbar-default">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Cyphertree</a>
-    </div>
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Cyphertree</a>
+      </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <?php if(has_nav_menu('header-menu')) {
-            wp_nav_menu( array('theme_location' => 'primary_menu', 'menu' => 'Cyphertree', 'container' => '', 'items_wrap' => '%3$s' ) );
-          } else {
-            echo '<li><a href="#">No menu assigned!</a></li>';
-          }
-        ?>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <?php if(has_nav_menu('header-menu')) {
+              wp_nav_menu( array('theme_location' => 'primary_menu', 'menu' => 'Cyphertree', 'container' => '', 'items_wrap' => '%3$s' ) );
+            } else {
+              echo '<li><a href="#">No menu assigned!</a></li>';
+            }
+          ?>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <?php
+    if ( is_front_page() ) {
+      homepage_slider();
+    }?>
