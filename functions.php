@@ -10,3 +10,9 @@ if( !function_exists("wp_bootstrap_theme_styles") ) {
   }
 }
 add_action( 'wp_enqueue_scripts', 'wp_bootstrap_theme_styles' );
+
+
+function register_my_menu() {
+  register_nav_menu('header-menu',__( 'Header Menu' ));
+}
+add_action( 'init', 'register_my_menu' );

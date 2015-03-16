@@ -14,6 +14,7 @@
     "grunt-contrib-cssmin": "~0.9.0",
     "grunt-contrib-less": "~0.11.1",
     "grunt-contrib-requirejs": "~0.4.4",
-    "grunt-closure-tools": "~0.8.3"
+    "grunt-closure-tools": "~0.8.3",
+    "grunt": "^0.4.5"
   }
 }
