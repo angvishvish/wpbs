@@ -14,7 +14,7 @@ get_header(); ?>
     <div class="col-md-5 col-md-offset-1">
       <a href="http://www.esparkinfo.com/services/web-development.html" class="allservices_cbox black_color">
         <div class="allservices_cicon">
-          <span class="glyph-icon flaticon-custom1 changesanimate"></span>
+          <i class="fa fa-desktop fa-2x"></i>
         </div>
         <div class="fullservices_ctext changesanimate text-center">
           <h3>Web Development</h3>
@@ -38,7 +38,7 @@ get_header(); ?>
     <div class="col-md-5 col-md-offset-1">
       <a href="http://www.esparkinfo.com/services/web-development.html" class="allservices_cbox black_color">
         <div class="allservices_cicon">
-          <span class="glyph-icon flaticon-custom1 changesanimate"></span>
+          <i class="fa fa-mobile fa-2x"></i>
         </div>
         <div class="fullservices_ctext changesanimate text-center">
           <h3>Web Development</h3>
