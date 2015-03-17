@@ -16,7 +16,7 @@
   <body>
 
 
-  <nav class="navbar navbar-cyphertree navbar-fixed-top">
+  <nav class="navbar navbar-wpbs navbar-fixed-top">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -26,14 +26,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Cyphertree</a>
+        <a class="navbar-brand" href="#">Brand name</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <?php if(has_nav_menu('header-menu')) {
-              wp_nav_menu( array('theme_location' => 'primary_menu', 'menu' => 'Cyphertree', 'container' => '', 'items_wrap' => '%3$s' ) );
+              wp_nav_menu( array('theme_location' => 'primary_menu', 'menu' => 'wpbs', 'container' => '', 'items_wrap' => '%3$s' ) );
             } else {
               echo '<li><a href="#">No menu assigned!</a></li>';
             }

@@ -17,3 +17,59 @@
 .carousel-control.right {
     background-image: none
 }
+
+.allservices_cont {
+  .fullservices_ctext {
+    border-color: #006198;
+  }
+}
+
+.allservices_cbox:hover .fullservices_ctext {
+  height: 444px;
+  transition: height 0.5s ease;
+}
+
+.allservices_cicon span {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  display: inline-block;
+  line-height: 100px;
+  margin: 20px 0;
+}
+
+.allservices_cicon {
+  float: left;
+  width: 100%;
+  background: @ct-background;
+  height: 444px;
+  text-align: center;
+  color: #fff;
+  line-height: 190px;
+  font-size: 50px;
+  margin: 0 0 10px;
+}
+
+.fullservices_ctext {
+  position: absolute;
+  bottom: 8px;
+  overflow: hidden;
+  height: 270px;
+  .calculate(width, "100% - 29px");
+  overflow: hidden;
+  padding: 45px 25px 35px;
+  background: #fff;
+  line-height: 28px;
+  font-size: 15px;
+  border-top: 6px solid @ct-border;
+}
+
+
+.fullservices_ctlist {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}

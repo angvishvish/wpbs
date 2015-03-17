@@ -1,10 +1,10 @@
   </main>
-  <footer class="footer footer-cyphertree">
+  <footer class="footer footer-wpbs">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <h6 class="copyright">
-            Cyphertree - All rights reserved
+            Company name - All rights reserved
           </h6>
         </div>
         <div class="col-md-6">
