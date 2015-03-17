@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <div class="container">
-  <div class="row">
+  <div class="row default-padding">
     <div class="col-md-5 col-md-offset-1">
       <a href="http://www.esparkinfo.com/services/web-development.html" class="allservices_cbox black_color">
         <div class="allservices_cicon">
