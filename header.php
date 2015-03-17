@@ -16,7 +16,7 @@
   <body>
 
 
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-cyphertree navbar-fixed-top">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -43,7 +43,8 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-  <?php
-    if ( is_front_page() ) {
-      homepage_slider();
-    }?>
+  <main class="main-wrapper">
+    <?php
+      if ( is_front_page() ) {
+        homepage_slider();
+      }?>

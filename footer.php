@@ -1,15 +1,16 @@
-  <footer class="footer navbar-inverse">
+  </main>
+  <footer class="footer footer-cyphertree">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h4 class="copyright">
+          <h6 class="copyright">
             Cyphertree - All rights reserved
-          </h4>
+          </h6>
         </div>
         <div class="col-md-6">
-          <h4 class="year">
+          <h6 class="year">
             2015
-          </h4>
+          </h6>
         </div>
       </div>
     </div>

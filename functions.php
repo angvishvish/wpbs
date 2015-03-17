@@ -9,7 +9,7 @@ if( !function_exists("wp_bootstrap_theme_styles") ) {
     wp_enqueue_style( 'wpbs-style' );
   }
 }
-add_action( 'wp_enqueue_scripts', 'wp_bootstrap_theme_styles' );
+// add_action( 'wp_enqueue_scripts', 'wp_bootstrap_theme_styles' );
 
 
 function register_my_menu() {
