@@ -14,9 +14,8 @@
 
   </head>
   <body>
-
-
-  <nav class="navbar navbar-wpbs navbar-fixed-top">
+    
+  <nav class="navbar navbar-default navbar-fixed-top navbar-wpbs">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -46,5 +45,5 @@
   <main class="main-wrapper">
     <?php
       if ( is_front_page() ) {
-        homepage_slider();
+        // homepage_slider();
       }?>

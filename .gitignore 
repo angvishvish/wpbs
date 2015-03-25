@@ -1,7 +1,0 @@
-# Ignore these files
-
-logs/*
-!.gitkeep
-tmp
-.DS_STORE
-.idea
