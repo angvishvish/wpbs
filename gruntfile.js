@@ -31,6 +31,12 @@ module.exports = function(grunt) {
         'style.css'
       ]
     },
+    watch: {
+      scripts: {
+        files: './*.less',
+        tasks: ['less'] 
+      },
+    }
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
