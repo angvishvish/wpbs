@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/styles.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
     <?php wp_head(); ?>
 
   </head>

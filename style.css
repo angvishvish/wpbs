@@ -8362,11 +8362,93 @@ button.close {
 .fa-medium:before {
   content: "\f23a";
 }
+.remove-margin {
+  margin: 0;
+}
+.remove-margin-lr {
+  margin-left: 0;
+  margin-right: 0;
+}
+.remove-margin-tb {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.remove-margin-top {
+  margin-top: 0;
+}
+.remove-margin-bottom {
+  margin-bottom: 0;
+}
+.add-margin-lr {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.add-margin-tb {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.add-margin-left {
+  margin-left: 30px;
+}
+.add-margin-right {
+  margin-right: 30px;
+}
+.add-margin-top {
+  margin-top: 30px;
+}
+.add-margin-bottom {
+  margin-bottom: 30px;
+}
+.remove-padding {
+  padding: 0;
+}
+.remove-padding-lr {
+  padding-left: 0;
+  padding-right: 0;
+}
+.remove-padding-tb {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.add-padding-lr {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.add-padding-lr {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.add-padding-tb {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.add-padding-left {
+  padding-left: 30px;
+}
+.add-padding-right {
+  padding-right: 30px;
+}
+.add-padding-top {
+  padding-top: 30px;
+}
+.add-padding-bottom {
+  padding-bottom: 30px;
+}
+.border-radius {
+  border-radius: 4px;
+}
+html,
+body {
+  height: 100%;
+}
 body {
   background-color: #eee;
 }
 .main-wrapper {
-  padding-top: 90px;
+  min-height: 100%;
+  height: auto !important;
+  margin: 0 auto -50px;
+  padding-top: 50px;
 }
 .default-padding {
   padding: 50px 0;
@@ -8438,51 +8520,12 @@ body {
   padding: 0;
   list-style: none;
 }
-nav.navbar {
-  margin-bottom: 0;
-}
-.navbar-brand {
-  padding: 35px;
-  height: inherit;
-  color: black;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-.nav li > a {
-  padding-top: 35px;
-  padding-bottom: 35px;
-  color: white;
-  font-weight: bold;
-}
-@media screen and (max-width: 768px) {
-  .nav li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-}
-.nav li > a:hover,
-.nav li > a:focus {
-  text-decoration: none;
-  background-color: #6ccf72;
-}
-.navbar-wpbs {
-  background-color: #6ccf72;
-  border-color: #c2f2c5;
-}
-.navbar-wpbs .navbar-toggle {
-  border-color: black;
-  margin-top: 25px;
-}
-.navbar-wpbs .navbar-toggle .icon-bar {
-  background-color: white;
+.footer {
+  background-color: #ddd;
+  height: 50px;
 }
 @media screen and (min-width: 992px) {
   .footer .year {
     float: right;
   }
-}
-.footer-wpbs {
-  color: white;
-  background-color: #154718;
-  border-top: 1px solid  #5E8C61;
 }

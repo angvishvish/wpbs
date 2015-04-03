@@ -33,7 +33,7 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
-        files: './*.less',
+        files: 'assets/*.less',
         tasks: ['less'] 
       },
     }
